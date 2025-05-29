@@ -1,0 +1,47 @@
+# next.js
+node_modules/
+.next/
+.out/                 # vercel build 產物（可選）
+dist/
+
+# ---- Logs ----
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- IDE / Compiler ----
+.idea/
+.vscode/
+.DS_Store
+
+# ---- Env / Secrets ----
+.env*
+!.env.example
+
+# testing
+/coverage
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# production
+/build
+
+*.pem
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+package-lock.json
